@@ -1,1 +1,1 @@
-alert("hello world!"),console.log("Hello world 🎈🎈");
+(()=>{"use strict";alert("hello world!"),console.log("Welcome to Webpack 🎈🎈"),alert("Hello I am Webpack 🎉🎉")})();

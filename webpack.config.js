@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   watch: true,
   mode: 'development',
+  devtool: 'eval-cheap-module-source-map',
   entry: './src/index.js',
   output: {
     filename: 'application.js',
@@ -19,6 +20,11 @@ module.exports = {
             presets: ['@babel/preset-env'],
           },
         },
+      },
+
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },

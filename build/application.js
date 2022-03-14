@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sayHello\": () => (/* binding */ sayHello)\n/* harmony export */ });\nfunction sayHello() {\r\n  alert('Hello I am Webpack 🎉🎉');\r\n}\r\n\r\n//commonJs\r\n//module.exports = sayHello;\r\n\r\n//ES6 modules\r\n\r\n\n\n//# sourceURL=webpack://webpack_beginners/./src/greeting.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sayHello\": () => (/* binding */ sayHello)\n/* harmony export */ });\nfunction sayHello() {\r\n  let tool = 'webpack';\r\n  alert(`Hello I am ${tool} 🎉🎉, welcome to ES6`);\r\n}\r\n\r\n//commonJs\r\n//module.exports = sayHello;\r\n\r\n//ES6 modules\r\n\r\n\n\n//# sourceURL=webpack://webpack_beginners/./src/greeting.js?");
 
 /***/ }),
 
